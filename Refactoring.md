@@ -9,3 +9,15 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+# Explanation of the given functionality :
+
+# The functionlity returns the string + hash version of candidate. By default , candidate is TRIVIAL_KEY_VALUE.
+
+# Line 6 . Default value of candidate TRIVIAL_KEY_VALUE,
+
+# Line 7. checkhash Flag to skip the Line 22 if already set.
+
+# Line 14 . Updates the checkhash flag since the hashfunction is executed.
+
+# Hence, I think removed extra if else functionality , but i think code can still more refracted using lambda expression/ ternary operators

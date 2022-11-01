@@ -14,10 +14,8 @@ You will be graded on the exhaustiveness and quality of your unit tests, the dep
 
  The functionlity returns the string + hash version of candidate. By default , candidate is TRIVIAL_KEY_VALUE.
 
- Line 6 . Default value of candidate TRIVIAL_KEY_VALUE,
+ Line 6 : Default value of candidate TRIVIAL_KEY_VALUE,
 
- Line 7. checkhash Flag to skip the Line 22 if already set.
-
- Line 14 . Updates the checkhash flag since the hashfunction is executed.
+Line 8- 12 : If its event has partition_key/event  it converts to string and hash encodes it . If there is no event then the default TRIVIAL_KEY_VAL is returned.
 
 Hence, I think removed extra if else functionality , but i think code can still more refracted using lambda expression/ ternary operators

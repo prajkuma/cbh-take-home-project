@@ -16,27 +16,27 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ## Your Breakdown Here
 
-**1. Update Database Design to Add column "custom_id" EFFORT-Low,TIME=2hrs, ACCEPTANCE CRITERIA = DB Design completed
+**1. Update Database Design to Add column "custom_id" EFFORT-Low,TIME=2hrs, ACCEPTANCE CRITERIA = DB Design completed**
 
 Task 1 : Add new column "agent_custom_id" as varchar(255) in "Agent" table.
 Task 2 : Update the Agent model object in the backend with new column "Agent".
 
-**2. Update the Middleware API and test it ; EFFORT-LOW ,TIME=2hrs, ACCEPTANCE CRITERIA = Backend completed
+**2. Update the Middleware API and test it ; EFFORT-LOW ,TIME=2hrs, ACCEPTANCE CRITERIA = Backend completed**
 
 Task 3 : Update the REST API functionalities (for ex: updateAgentFacilityID) to update in the backend.
 Task 4 : Update the test functionality to test the update happens in the backend.
 Task 5 : Use Postman to test the API functionality.
 
-**3. Frontend Change; EFFORT-Medium,TIME=3hrs, ACCEPTANCE CRITERIA = Frontend design completed
+**3. Frontend Change; EFFORT-Medium,TIME=3hrs, ACCEPTANCE CRITERIA = Frontend design completed**
 
 Task 6 : Input field for faciitator to add the custom agent Id validate
 Task 7 : Validation for the input given form.
 
-**4. Method call getShiftsByFacility() && generateReport() ; EFFORT -LOW , TIME-1hr, ACCEPTANCE CRITERIA = Frontend validation completed
+**4. Method call getShiftsByFacility() && generateReport() ; EFFORT -LOW , TIME-1hr, ACCEPTANCE CRITERIA = Frontend validation completed**
 
-Task 8 : Make sure method returns object with value "agent_facility_id" added in the report as well as getShiftsByfacility is called.
+Task 8 : Make sure method getShiftsByFacility returns all the shifts worked in a quarter object with value "agent_facility_id" added in the report as well as generateReport is called.
 
-**5. Authentication and Authorization for the Facilitator EFFORT -LOW , TIME-3hr, ACCEPTANCE CRITERIA = IAM completed
+**5. Authentication and Authorization for the Facilitator EFFORT -LOW , TIME-3hr, ACCEPTANCE CRITERIA = IAM completed**
 
 Task 9 : Make sure facilitator can only give the agent's custom id and no one else by using authorization role in the frontend.
 Task 10 : Move the changes to Developement server and get QA sign off to get approval for production rollout.
